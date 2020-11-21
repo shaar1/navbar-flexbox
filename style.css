@@ -26,4 +26,38 @@ a {
     padding: 30px 70px;
 }
 
+.logo {
+    cursor: pointer;
+    padding: 2rem;
+}
 
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    transition: .35;
+    color: #fff;
+}
+
+.nav-area li a:hover {
+    color: #d22938;
+}
+
+.btn-area {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22938;
+
+}
