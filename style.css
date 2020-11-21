@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: url(images/2.svg);
     -webkit-backdrop-size: cover;
     background-size: cover;
@@ -12,5 +13,17 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 600px;
     font-size: 16px;
-
 }
+
+a {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+
